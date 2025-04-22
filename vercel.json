@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "frank/wsgi.py",
+        "src": "hegbojprj/wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "frank/wsgi.py"
+        "dest": "hegbojprj/wsgi.py"
       }
     ]
   }
